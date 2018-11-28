@@ -1,5 +1,5 @@
 let currentCssResult = ''
-const time = 40
+const time = 20
 const writeCss = (code, style, result, callback) => {
     let currentIndex = 0
     const interval = setInterval(() => {
@@ -20,12 +20,6 @@ const css = `/*
 * 代码还是在这边写，那么右边的就是画板啦
 * 不多说了，马上开始吧
 */
-
-/* 先给所有的部位添加通用的样式 */
-.head, .eye, .mouth, .torso, .belly, .cover, .heart, .arm, .leg {
-    background: #fff;
-    position: absolute;
-}
 
 /* 脑子是个好东西，要先画 */
 .head {

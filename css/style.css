@@ -36,3 +36,8 @@ body {
     margin: auto;
     position: relative;
 }
+
+.head, .eye, .mouth, .torso, .belly, .cover, .heart, .arm, .leg {
+    background: #fff;
+    position: absolute;
+}
